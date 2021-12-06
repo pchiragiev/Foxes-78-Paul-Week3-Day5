@@ -24,15 +24,15 @@ class Expenses():
     def total_expenses(self):
         return self.tax + self.insurance + self.utilities + self.hoa + self.lawn_snow + self.vacancy + self.repairs + self.cap_ex + self.property_manage + self.mortgage
 
-class Cash_Flow():
+#class Cash_Flow():
     
     #def monthly(self):
     #    total = Income().total_income() - Expenses().total_expenses()
     #    return total
 
-    def yearly(self):
-        total = 12 * (self.monthly())
-        return total
+    #def yearly(self):
+    #    total = 12 * (self.monthly())
+    #    return total
 
 class Investment():
     def __init__(self):
@@ -54,7 +54,7 @@ class Main():
     def run():
         inc = Income()
         exp = Expenses()
-        c_f = Cash_Flow()
+        #c_f = Cash_Flow()
         inv = Investment()
         #c_o_c = Cash_On_Cash()
 
